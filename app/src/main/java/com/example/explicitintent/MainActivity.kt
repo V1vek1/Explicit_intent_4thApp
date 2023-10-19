@@ -20,12 +20,13 @@ class MainActivity : AppCompatActivity() {
 
         btnIntent.setOnClickListener {   //maine yha button ko action provide kiya ki,isko clickable bnao
 
-            intent= Intent(applicationContext, SecondActivity::class.java)  //Phir maine isne ek "intent" bnaya Or usme "intent"
-                                                                            //method call kiya Or Phir uss "Intent" me two
-                                                                            //"parameter" Pass kiya, Or phir isko ek "context" diya
-                                                                            //Jiska name tha "applicationContext" and 2nd Parameter
-                                                                            // ha aapne "new Activity" ka name jisper hame jana h
-                                                                            //click karne ke baad
+            intent= Intent(applicationContext, SecondActivity::class.java)  //Phir maine isne ek "intent" bnaya Or usme
+                                                                            //"intent" method call kiya Or Phir uss
+                                                                            //"Intent" me two "parameter" Pass kiya,
+                                                                            //Or phir isko ek "context" diya Jiska name
+                                                                            //tha "applicationContext" and 2nd Parameter
+                                                                            //ha aapne "new Activity" ka name jisper hame
+                                                                            //jana h click karne ke baad
             startActivity(intent)
         }
 
